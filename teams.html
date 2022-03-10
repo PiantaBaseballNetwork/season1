@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teams</title>
+	<link rel="icon" href="Assets/tab_icon.png">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+	<div class="container">
+	
+		<a href="index.html"><img src="Assets/mb_logo.png" alt="baseball logo" class="logo"></a>
+		
+		<nav>
+			<ul>
+				<li><a href="teams.html">Teams</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="matches.html">Matches</a></li>
+				<li><a href="archive.html">Archive</a></li>
+			</ul>
+		</nav>
+		
+	</div>
+</header>
+	
+<!-- Contents -->
+<table class="stattable">
+	<tr>
+		<th data-column="name" data-order="desc">Name &#9642</th>
+		<th data-column="age" data-order="none">Captain &#9642</th>
+		<th data-column="stadium" data-order="none">Stadium &#9642</th>
+		<th data-column="win" data-order="none">Win &#9642</th>
+		<th data-column="loss" data-order="none">Loss &#9642</th>
+		<th data-column="battingavg" data-order="none">Batting AVG &#9642</th>
+	</tr>
+	
+	<tbody id="teamtable">
+	
+	</tbody>
+</table>
+
+<script>
+	var myArray;
+
+	fetch("LeagueData.json")
+		.then(response => response.json())
+		.then(data => {
+			console.log(data)
+		})
+	
+	lastClick = -99;
+	lastColumn = -99;
+	
+	$('th').on('click', function(){
+		var column = $(this).data('column')
+		var order = $(this).data('order')
+		var text = $(this).html()
+		text = text.substring(0, text.length -1)
+		
+		console.log('Click', column, order)
+		
+		if(lastClick != -99)
+		{
+			lastText = lastClick.html()
+			lastText = lastText.substring(0, lastText.length -1)
+			lastText += '&#9642'
+			lastClick.html(lastText)
+			
+			
+			lastClick.data('order', "none")
+		}
+		
+		if(order == 'desc' && lastColumn == column){
+			$(this).data('order', "asc")
+			
+			if(column == "name")
+				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+			else
+				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
+				
+			text += '&#9660'
+		}else if(order == 'asc' && lastColumn == column){
+			$(this).data('order', "desc")
+			
+			if(column == "name")
+				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
+			else
+				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+				
+			text += '&#9650'
+		}else{
+			$(this).data('order', "desc")
+			
+			if(column == "name")
+				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
+			else
+				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+				
+			text += '&#9650'
+		}
+		
+		lastColumn = column;
+		lastClick = $(this);
+		
+		$(this).html(text)
+
+		buildTable(myArray)
+	})
+	
+	buildTable(myArray)
+	
+	function buildTable(data){
+		var table = document.getElementById('teamtable')
+		table.innerHTML = ''
+		for(var i = 0; i < data.length; i++){
+			var row = `<tr>
+				<td>${data[i].name}</td>
+				<td>${data[i].age}</td>
+				<td>${data[i].birthdate}</td>
+			</tr>`
+			
+			table.innerHTML += row
+		}
+	}
+</script>
+	
+	
+</body>
+</html>
