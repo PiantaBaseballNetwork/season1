@@ -33,9 +33,9 @@
 <!-- Contents -->
 <table class="stattable">
 	<tr>
-		<th data-column="name" data-order="desc">Name &#9642</th>
-		<th data-column="age" data-order="none">Captain &#9642</th>
-		<th data-column="stadium" data-order="none">Stadium &#9642</th>
+		<th data-column="TeamName" data-order="desc">Name &#9642</th>
+		<th data-column="TeamCaptain" data-order="none">Captain &#9642</th>
+		<th data-column="HomeStadium" data-order="none">Stadium &#9642</th>
 		<th data-column="win" data-order="none">Win &#9642</th>
 		<th data-column="loss" data-order="none">Loss &#9642</th>
 		<th data-column="battingavg" data-order="none">Batting AVG &#9642</th>
@@ -81,7 +81,7 @@
 		if(order == 'desc' && lastColumn == column){
 			$(this).data('order', "asc")
 			
-			if(column == "name")
+			if(column == "TeamName")
 				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
 			else
 				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
@@ -90,7 +90,7 @@
 		}else if(order == 'asc' && lastColumn == column){
 			$(this).data('order', "desc")
 			
-			if(column == "name")
+			if(column == "TeamName")
 				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
 			else
 				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
@@ -99,7 +99,7 @@
 		}else{
 			$(this).data('order', "desc")
 			
-			if(column == "name")
+			if(column == "TeamName")
 				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
 			else
 				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
@@ -122,9 +122,9 @@
 		table.innerHTML = ''
 		for(var i = 0; i < data.length; i++){
 			var row = `<tr>
-				<td>${data[i].name}</td>
-				<td>${data[i].age}</td>
-				<td>${data[i].birthdate}</td>
+				<td>${data[i].TeamName}</td>
+				<td>${data[i].TeamCaptain}</td>
+				<td>${data[i].HomeStadium}</td>
 			</tr>`
 			
 			table.innerHTML += row
