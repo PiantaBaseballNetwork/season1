@@ -1,7 +1,10 @@
 body{
 	margin: 0;
 	background: #2B2C36;
-	color: black;
+}
+
+p{
+	color: white;
 }
 
 .container {
@@ -96,7 +99,9 @@ table {
 caption {
   text-align: left; position: fixed; left: 0; top:0
 }
-td, th {border:  1px solid;
+td, th {
+	color: black;
+	border:  1px solid;
       padding: 10px;
       min-width: auto;
       background: white;
