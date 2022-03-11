@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	background: #2B2C36;
+	width: 100%;
+	height: 100%;
 }
 
 p{
@@ -75,11 +77,11 @@ nav a:hover:before{
 }
 
 tr:nth-child(even) {
-  background-color: #04AA6D;
+	background-color: #04AA6D;
 }
 
 tr:nth-child(odd) {
-  background-color: #67B8DB;
+	background-color: #67B8DB;
 }
 
 .fixed-column{
@@ -92,13 +94,13 @@ tr:nth-child(odd) {
 
 
 table {
-  border-collapse: collapse; 
-  font-family: helvetica;
-  caption-side: top;
-  text-transform: capitalize;
+	border-collapse: collapse; 
+	font-family: helvetica;
+	caption-side: top;
+	text-transform: capitalize;
 }
 caption {
-  text-align: left; position: fixed; left: 0; top:0
+	text-align: left; position: fixed; left: 0; top:0
 }
 td, th {
 	color: black;
@@ -123,33 +125,33 @@ th {
 
 thead th{
 	position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  background: hsl(20, 50%, 70%);
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background: hsl(20, 50%, 70%);
 }
 
 thead th:first-child{
-  left: 0;
-  z-index: 3;
+	left: 0;
+	z-index: 3;
 }
 
 tfoot th {
-  position: sticky;
-  bottom: 0;
-  z-index: 2;
-  background: hsl(20, 50%, 70%);
+	position: sticky;
+	bottom: 0;
+	z-index: 2;
+	background: hsl(20, 50%, 70%);
 }
 
 tbody {
-  overflow: scroll;
-  height: 200px;
+	overflow: scroll;
+	height: 200px;
 }
 
 /* MAKE LEFT COLUMN FIXEZ */
 tr > :first-child {
-  position: -webkit-sticky;
-  position: sticky; 
-  background: hsl(180, 50%, 70%);
-  left: 0; 
+	position: -webkit-sticky;
+	position: sticky; 
+	background: hsl(180, 50%, 70%);
+	left: 0; 
 }
