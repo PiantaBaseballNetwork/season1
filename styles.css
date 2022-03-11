@@ -25,7 +25,7 @@ p{
 }
 
 .nav-container {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ header::after{
 	float: left;
 	padding: 10px 0;
 	height: 20px;
-	width: auto;
+	width: 20px;
 }
 
 nav{
@@ -58,8 +58,8 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin-left: 70px;
-	padding-top: 50px;
+	margin-left: 30px;
+	padding-top: 20px;
 	
 	position: relative;
 }
