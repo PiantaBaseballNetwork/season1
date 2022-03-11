@@ -31,7 +31,7 @@
 </header>
 	
 <!-- Contents -->
-<table class="stattable">
+<table class="gridview">
 	<tr>
 		<th data-column="HomeTeam" data-order="desc">Home &#9642</th>
 		<th data-column="HomeScore" data-order="none">Score(H) &#9642</th>
@@ -53,9 +53,9 @@
 	fetch("LeagueData.json")
 		.then(response => response.json())
 		.then(data => {
-			console.log(data.Seasons[0].Characters)
-			myArray = data.Seasons[0].Characters
-			buildTable(data.Seasons[0].Characters)
+			console.log(data.Seasons[0].Games)
+			myArray = data.Seasons[0].Games
+			buildTable(data.Seasons[0].Games)
 		})
 	
 	lastClick = -99;
@@ -113,7 +113,7 @@
 		var table = document.getElementById('teamtable')
 		table.innerHTML = ''
 		for(var i = 0; i < data.length; i++){
-			var row = `<tr>
+			var row = `<tr onclick="toggleClass(this,'selected');">
 				<td>${data[i].HomeTeam}</td>
 				<td>${data[i].HomeScore}</td>
 				<td>${data[i].AwayTeam}</td>
@@ -126,6 +126,16 @@
 			table.innerHTML += row
 		}
 	}
+	
+	function toggleClass(el, className) {
+    if (el.className.indexOf(className) >= 0) {
+        el.className = el.className.replace(className,"");
+    }
+    else {
+        el.className  += className;
+    }
+}
+	
 </script>
 	
 	
