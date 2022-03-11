@@ -113,7 +113,7 @@
 		var table = document.getElementById('teamtable')
 		table.innerHTML = ''
 		for(var i = 0; i < data.length; i++){
-			var row = `<tr onclick="toggleClass(this,'selected');">
+			var row = `<tr>
 				<td>${data[i].HomeTeam}</td>
 				<td>${data[i].HomeScore}</td>
 				<td>${data[i].AwayTeam}</td>
@@ -125,17 +125,7 @@
 			
 			table.innerHTML += row
 		}
-	}
-	
-	function toggleClass(el, className) {
-    if (el.className.indexOf(className) >= 0) {
-        el.className = el.className.replace(className,"");
-    }
-    else {
-        el.className  += className;
-    }
-}
-	
+	}	
 </script>
 	
 	

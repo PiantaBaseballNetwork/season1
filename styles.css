@@ -77,8 +77,3 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #67B8DB;
 }
-
-.gridview .selected, .gridview tbody .selected {
-    background-color: #6ccbfb;
-    color: #fff;
-}
