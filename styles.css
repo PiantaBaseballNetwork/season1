@@ -9,7 +9,6 @@ body{
 header{
 	min-height: 10%;
 	width: 100%;
-	overflow-x: scroll;
 }
 
 .table-container {
