@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	background: #2B2C36;
-	color: black;
+	color: white;
 }
 
 .container {
@@ -108,10 +108,11 @@ th {
   box-shadow: 0 0 0 1px black;
 }
 .table-container {
-  position: relative;
-  max-height:  300px;
-  width: 500px;
-  overflow: scroll;
+	color: black;
+	position: relative;
+	max-height:  300px;
+	width: 500px;
+	overflow: scroll;
 }
 
 thead th, 
