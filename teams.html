@@ -53,6 +53,7 @@
 		.then(response => response.json())
 		.then(data => {
 			console.log(data)
+			myArray = data.Seasons[0].Teams
 		})
 	
 	lastClick = -99;
