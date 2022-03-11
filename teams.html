@@ -52,7 +52,7 @@
 	fetch("LeagueData.json")
 		.then(response => response.json())
 		.then(data => {
-			console.log(data.Seasons[0])
+			console.log(data.Seasons[0].Teams)
 			myArray = data.Seasons[0].Teams
 		})
 	
