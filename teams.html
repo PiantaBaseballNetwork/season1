@@ -38,13 +38,27 @@
 		<th data-column="HomeStadium" data-order="none">Stadium &#9642</th>
 		<th data-column="GamesWon" data-order="none">Win &#9642</th>
 		<th data-column="GamesLost" data-order="none">Loss &#9642</th>
-		<th data-column="BattingAVG" data-order="none">Batting AVG &#9642</th>
-		<th data-column="ERA" data-order="none">ERA &#9642</th>
-		<th data-column="TotalScore" data-order="none">Total Runs &#9642</th>
+		
+		<!-- Batting -->
+		<th data-column="Hits" data-order="none">Hits &#9642</th>
+		<th data-column="Singles" data-order="none">Singles &#9642</th>
+		<th data-column="Doubles" data-order="none">Doubles &#9642</th>
+		<th data-column="Triples" data-order="none">Triples &#9642</th>
 		<th data-column="Homeruns" data-order="none">Homeruns &#9642</th>
+		<th data-column="StrikeoutsSwung" data-order="none">Strikeouts(batted) &#9642</th>
+		<th data-column="BallWalks" data-order="none">Walks(ball) &#9642</th>
+		<th data-column="HitWalks" data-order="none">Walks(hit) &#9642</th>
+		<th data-column="TotalScore" data-order="none">Runs &#9642</th>
+		<th data-column="BasesStolen" data-order="none">Bases Stolen &#9642</th>
+		<th data-column="BattingAVG" data-order="none">Batting AVG &#9642</th>
+		
+		<!-- Pitching -->
+		<th data-column="InningsPitched" data-order="none">Innings Pitched &#9642</th>
+		<th data-column="ERA" data-order="none">ERA &#9642</th>
+		<th data-column="StrikeoutsThrown" data-order="none">Strikeouts(pitched) &#9642</th>
 		<th data-column="BattersWalked" data-order="none">Batters Walked &#9642</th>
 		<th data-column="BattersHit" data-order="none">Batters Hit &#9642</th>
-		<th data-column="BasesStolen" data-order="none">Bases Stolen &#9642</th>
+		
 	</tr>
 	
 	<tbody id="teamtable">
@@ -124,13 +138,24 @@
 				<td>${data[i].HomeStadium}</td>
 				<td>${data[i].GamesWon}</td>
 				<td>${data[i].GamesLost}</td>
-				<td>${data[i].BattingAVG}</td>
-				<td>${data[i].ERA}</td>
-				<td>${data[i].TotalScore}</td>
+				
+				<td>${data[i].Hits}</td>
+				<td>${data[i].Singles}</td>
+				<td>${data[i].Doubles}</td>
+				<td>${data[i].Triples}</td>
 				<td>${data[i].Homeruns}</td>
+				<td>${data[i].StrikeoutsSwung}</td>
+				<td>${data[i].BallWalks}</td>
+				<td>${data[i].HitWalks}</td>
+				<td>${data[i].TotalScore}</td>
+				<td>${data[i].BasesStolen}</td>
+				<td>${data[i].BattingAVG}</td>
+				
+				<td>${data[i].InningsPitched}</td>
+				<td>${data[i].ERA}</td>
+				<td>${data[i].StrikeoutsThrown}</td>
 				<td>${data[i].BattersWalked}</td>
 				<td>${data[i].BattersHit}</td>
-				<td>${data[i].BasesStolen}</td>
 			</tr>`
 			
 			table.innerHTML += row
