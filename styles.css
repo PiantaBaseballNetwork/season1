@@ -10,7 +10,7 @@ header{
 	height: 7%;
 	max-height: 7%;
 	width: 100%;
-	overflow: scroll;
+	overflow-x: scroll;
 }
 
 .table-container {
