@@ -41,6 +41,8 @@
           "OutsPitched": 12,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 4,
+          "ERA": 0.0,
           "AtBats": 38,
           "Hits": 26,
           "Singles": 17,
@@ -52,7 +54,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 19,
           "BasesStolen": 0,
-          "StarHits": 2
+          "StarHits": 2,
+          "BattingAVG": 0.68
         },
         {
           "TeamName": "Battle Toads",
@@ -72,6 +75,8 @@
           "OutsPitched": 12,
           "StarPitchesThrown": 6,
           "BigPlays": 6,
+          "InningsPitched": 4,
+          "ERA": 47.25,
           "AtBats": 16,
           "Hits": 4,
           "Singles": 4,
@@ -83,7 +88,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.25
         },
         {
           "TeamName": "Bus Stop Gang",
@@ -103,6 +109,8 @@
           "OutsPitched": 25,
           "StarPitchesThrown": 1,
           "BigPlays": 1,
+          "InningsPitched": 9,
+          "ERA": 8.0,
           "AtBats": 42,
           "Hits": 17,
           "Singles": 13,
@@ -114,7 +122,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 8,
           "BasesStolen": 0,
-          "StarHits": 7
+          "StarHits": 7,
+          "BattingAVG": 0.4
         },
         {
           "TeamName": "Sunshine Strikers",
@@ -134,6 +143,8 @@
           "OutsPitched": 26,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 9,
+          "ERA": 8.0,
           "AtBats": 38,
           "Hits": 14,
           "Singles": 9,
@@ -145,7 +156,8 @@
           "HitWalks": 5,
           "RunsBattedIn": 8,
           "BasesStolen": 0,
-          "StarHits": 5
+          "StarHits": 5,
+          "BattingAVG": 0.37
         }
       ],
       "Characters": [
@@ -164,6 +176,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 2,
           "Hits": 1,
           "Singles": 1,
@@ -175,7 +189,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.5
         },
         {
           "CharacterName": "Toad(P)",
@@ -192,6 +207,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 2,
           "Hits": 2,
           "Singles": 2,
@@ -203,7 +220,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 1.0
         },
         {
           "CharacterName": "Toadsworth",
@@ -220,6 +238,8 @@
           "OutsPitched": 4,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 2,
+          "ERA": 31.5,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -231,7 +251,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Toad(R)",
@@ -248,6 +269,8 @@
           "OutsPitched": 2,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 1,
+          "ERA": 90.0,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -259,7 +282,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Peach",
@@ -276,6 +300,8 @@
           "OutsPitched": 5,
           "StarPitchesThrown": 6,
           "BigPlays": 6,
+          "InningsPitched": 3,
+          "ERA": 6.0,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -287,7 +313,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Toad(B)",
@@ -304,6 +331,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -315,7 +344,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Paragoomba",
@@ -332,6 +362,8 @@
           "OutsPitched": 1,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 1,
+          "ERA": 18.0,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -343,7 +375,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Toad(Y)",
@@ -360,6 +393,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 1,
           "Hits": 1,
           "Singles": 1,
@@ -371,7 +406,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 1.0
         },
         {
           "CharacterName": "Baby Luigi",
@@ -388,6 +424,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 1,
           "Hits": 0,
           "Singles": 0,
@@ -399,7 +437,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Yoshi",
@@ -416,6 +455,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 3,
           "Singles": 2,
@@ -427,7 +468,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 3,
           "BasesStolen": 0,
-          "StarHits": 1
+          "StarHits": 1,
+          "BattingAVG": 0.75
         },
         {
           "CharacterName": "Birdo",
@@ -444,6 +486,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 3,
           "Singles": 1,
@@ -455,7 +499,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 5,
           "BasesStolen": 0,
-          "StarHits": 1
+          "StarHits": 1,
+          "BattingAVG": 0.6
         },
         {
           "CharacterName": "Mario",
@@ -472,6 +517,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 5,
           "Singles": 1,
@@ -483,7 +530,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 3,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 1.0
         },
         {
           "CharacterName": "Shy Guy(G)",
@@ -500,6 +548,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 3,
           "Singles": 3,
@@ -511,7 +561,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 2,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.75
         },
         {
           "CharacterName": "Daisy",
@@ -528,6 +579,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 2,
           "Singles": 1,
@@ -539,7 +592,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 2,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.4
         },
         {
           "CharacterName": "Paratroopa(G)",
@@ -556,6 +610,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 2,
           "Singles": 2,
@@ -567,7 +623,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.5
         },
         {
           "CharacterName": "Dry Bones(B)",
@@ -584,6 +641,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 4,
           "Singles": 3,
@@ -595,7 +654,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 1.0
         },
         {
           "CharacterName": "Waluigi",
@@ -612,6 +672,8 @@
           "OutsPitched": 12,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 4,
+          "ERA": 0.0,
           "AtBats": 4,
           "Hits": 1,
           "Singles": 1,
@@ -623,7 +685,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 2,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.25
         },
         {
           "CharacterName": "Baby Mario",
@@ -640,6 +703,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 3,
           "Hits": 3,
           "Singles": 3,
@@ -651,7 +716,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 1.0
         },
         {
           "CharacterName": "Boo",
@@ -668,6 +734,8 @@
           "OutsPitched": 23,
           "StarPitchesThrown": 1,
           "BigPlays": 1,
+          "InningsPitched": 9,
+          "ERA": 8.0,
           "AtBats": 5,
           "Hits": 2,
           "Singles": 1,
@@ -679,7 +747,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 3,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.4
         },
         {
           "CharacterName": "Wario",
@@ -696,6 +765,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 3,
           "Singles": 3,
@@ -707,7 +778,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 2,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.6
         },
         {
           "CharacterName": "Noki(R)",
@@ -724,6 +796,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 1,
           "Singles": 1,
@@ -735,7 +809,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 3
+          "StarHits": 3,
+          "BattingAVG": 0.2
         },
         {
           "CharacterName": "Pianta(R)",
@@ -752,6 +827,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 1,
           "Singles": 1,
@@ -763,7 +840,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 1
+          "StarHits": 1,
+          "BattingAVG": 0.2
         },
         {
           "CharacterName": "Magikoopa(R)",
@@ -780,6 +858,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 4,
           "Singles": 2,
@@ -791,7 +871,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 2
+          "StarHits": 2,
+          "BattingAVG": 0.8
         },
         {
           "CharacterName": "Bro(H)",
@@ -808,6 +889,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 1,
           "Singles": 1,
@@ -819,7 +902,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.2
         },
         {
           "CharacterName": "Koopa(G)",
@@ -836,6 +920,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 3,
           "Singles": 2,
@@ -847,7 +933,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.6
         },
         {
           "CharacterName": "Dry Bones(Gy)",
@@ -864,6 +951,8 @@
           "OutsPitched": 2,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 1,
+          "ERA": 0.0,
           "AtBats": 5,
           "Hits": 1,
           "Singles": 1,
@@ -875,7 +964,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 1
+          "StarHits": 1,
+          "BattingAVG": 0.2
         },
         {
           "CharacterName": "Monty",
@@ -892,6 +982,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 2,
           "Hits": 1,
           "Singles": 1,
@@ -903,7 +995,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.5
         },
         {
           "CharacterName": "Diddy",
@@ -920,6 +1013,8 @@
           "OutsPitched": 22,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 8,
+          "ERA": 9.0,
           "AtBats": 5,
           "Hits": 2,
           "Singles": 1,
@@ -931,7 +1026,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.4
         },
         {
           "CharacterName": "DK",
@@ -948,6 +1044,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 2,
           "Hits": 0,
           "Singles": 0,
@@ -959,7 +1057,8 @@
           "HitWalks": 3,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Bro(B)",
@@ -976,6 +1075,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 1,
           "Singles": 1,
@@ -987,7 +1088,8 @@
           "HitWalks": 1,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.25
         },
         {
           "CharacterName": "Noki(B)",
@@ -1004,6 +1106,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 3,
           "Singles": 2,
@@ -1015,7 +1119,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 2,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.6
         },
         {
           "CharacterName": "Noki(G)",
@@ -1032,6 +1137,8 @@
           "OutsPitched": 4,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 2,
+          "ERA": 0.0,
           "AtBats": 4,
           "Hits": 1,
           "Singles": 0,
@@ -1043,7 +1150,8 @@
           "HitWalks": 1,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 4
+          "StarHits": 4,
+          "BattingAVG": 0.25
         },
         {
           "CharacterName": "Pianta(B)",
@@ -1060,6 +1168,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 2,
           "Singles": 2,
@@ -1071,7 +1181,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 1,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.4
         },
         {
           "CharacterName": "Shy Guy(R)",
@@ -1088,6 +1199,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 5,
           "Hits": 3,
           "Singles": 2,
@@ -1099,7 +1212,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 3,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.6
         },
         {
           "CharacterName": "Magikoopa(Y)",
@@ -1116,6 +1230,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 0,
           "Singles": 0,
@@ -1127,7 +1243,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 1
+          "StarHits": 1,
+          "BattingAVG": 0.0
         },
         {
           "CharacterName": "Bowser Jr",
@@ -1144,6 +1261,8 @@
           "OutsPitched": 0,
           "StarPitchesThrown": 0,
           "BigPlays": 0,
+          "InningsPitched": 0,
+          "ERA": -1.0,
           "AtBats": 4,
           "Hits": 2,
           "Singles": 1,
@@ -1155,7 +1274,8 @@
           "HitWalks": 0,
           "RunsBattedIn": 0,
           "BasesStolen": 0,
-          "StarHits": 0
+          "StarHits": 0,
+          "BattingAVG": 0.5
         }
       ]
     }
