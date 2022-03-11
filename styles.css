@@ -98,7 +98,7 @@ caption {
 }
 td, th {border:  1px solid;
       padding: 10px;
-      min-width: 200px;
+      min-width: auto;
       background: white;
       box-sizing: border-box;
       text-align: left;
@@ -110,30 +110,22 @@ th {
 .table-container {
 	color: black;
 	position: relative;
-	max-height:  300px;
-	width: 500px;
+	max-height:  500px;
+	width: 600px;
 	overflow: scroll;
 }
 
-thead th, 
-tfoot th {
-  position: -webkit-sticky;
+thead th{
+	position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 2;
   background: hsl(20, 50%, 70%);
 }
 
-thead th:first-child,
-tfoot th:first-child {
+thead th:first-child{
   left: 0;
   z-index: 3;
-}
-
-tfoot {
-  position: -webkit-sticky;
-  bottom: 0;
-  z-index: 2;
 }
 
 tfoot th {
@@ -141,10 +133,6 @@ tfoot th {
   bottom: 0;
   z-index: 2;
   background: hsl(20, 50%, 70%);
-}
-
-tfoot td:first-child {
-  z-index: 3;
 }
 
 tbody {
