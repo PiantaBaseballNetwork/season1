@@ -7,8 +7,9 @@ p{
 	color: white;
 }
 
-.container {
+.nav-container {
 	width: 90%;
+	max-height: 10%;
 	margin: 0 auto;
 }
 
@@ -115,7 +116,7 @@ th {
 .table-container {
 	color: black;
 	position: relative;
-	max-height: auto;
+	max-height: 90%;
 	width: 100%;
 	overflow: scroll;
 }
