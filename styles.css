@@ -41,8 +41,8 @@ header::after{
 .logo{
 	float: left;
 	padding: 10px 0;
+	height: 20px;
 	width: auto;
-	height: 100%;
 }
 
 nav{
