@@ -77,3 +77,10 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #67B8DB;
 }
+
+.fixed-column{
+}
+
+.fixed-row{
+	position: fixed;
+}
