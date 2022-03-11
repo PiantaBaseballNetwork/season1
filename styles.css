@@ -158,7 +158,3 @@ tr > :first-child {
   background: hsl(180, 50%, 70%);
   left: 0; 
 }
-/* don't do this */
-tr > :first-child {
-  box-shadow: inset 0px 1px black;
-}
