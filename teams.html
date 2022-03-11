@@ -54,8 +54,8 @@
 		.then(data => {
 			console.log(data.Seasons[0].Teams)
 			myArray = data.Seasons[0].Teams
-			buildTable(myArray)
 		})
+	buildTable(myArray)
 	
 	lastClick = -99;
 	lastColumn = -99;
