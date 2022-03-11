@@ -54,6 +54,7 @@
 		.then(data => {
 			console.log(data.Seasons[0].Teams)
 			myArray = data.Seasons[0].Teams
+			buildTable(myArray)
 		})
 	
 	lastClick = -99;
@@ -81,28 +82,19 @@
 		if(order == 'desc' && lastColumn == column){
 			$(this).data('order', "asc")
 			
-			if(column == "TeamName")
-				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
-			else
-				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
+			myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
 				
 			text += '&#9660'
 		}else if(order == 'asc' && lastColumn == column){
 			$(this).data('order', "desc")
 			
-			if(column == "TeamName")
-				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
-			else
-				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+			myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
 				
 			text += '&#9650'
 		}else{
 			$(this).data('order', "desc")
 			
-			if(column == "TeamName")
-				myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
-			else
-				myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+			myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
 				
 			text += '&#9650'
 		}
@@ -114,8 +106,6 @@
 
 		buildTable(myArray)
 	})
-	
-	buildTable(myArray)
 	
 	function buildTable(data){
 		var table = document.getElementById('teamtable')
