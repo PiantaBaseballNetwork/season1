@@ -5,18 +5,28 @@ body{
 	height: 100%;
 }
 
+/* Containers */
+header{
+	height: 7%;
+	max-height: 7%;
+	width: 100%;
+	overflow: scroll;
+}
+
+.table-container {
+	color: black;
+	position: relative;
+	max-height: 93%;
+	width: 100%;
+	overflow: scroll;
+}
+
 p{
 	color: white;
 }
 
-header{
-	height: 10%;
-	width: 100%;
-}
-
 .nav-container {
 	width: 90%;
-	max-height: 10%;
 	margin: 0 auto;
 }
 
@@ -33,6 +43,8 @@ header::after{
 .logo{
 	float: left;
 	padding: 10px 0;
+	width: auto;
+	height: 100%;
 }
 
 nav{
@@ -119,13 +131,6 @@ td, th {
 
 th {
 	box-shadow: 0 0 0 1px black;
-}
-.table-container {
-	color: black;
-	position: relative;
-	max-height: 90%;
-	width: 100%;
-	overflow: scroll;
 }
 
 thead th{
