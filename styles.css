@@ -103,15 +103,15 @@ caption {
 td, th {
 	color: black;
 	border:  1px solid;
-      padding: 10px;
-      min-width: auto;
-      background: white;
-      box-sizing: border-box;
-      text-align: left;
+	padding: 10px;
+	min-width: auto;
+	background: white;
+	box-sizing: border-box;
+	text-align: left;
 }
 
 th {
-  box-shadow: 0 0 0 1px black;
+	box-shadow: 0 0 0 1px black;
 }
 .table-container {
 	color: black;
