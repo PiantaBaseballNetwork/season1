@@ -7,14 +7,15 @@ body{
 
 /* Containers */
 header{
-	min-height: 10%;
+	max-height: 10%;
 	width: 100%;
+	overflow-x: scroll;
 }
 
 .table-container {
 	color: black;
 	position: relative;
-	max-height: auto;
+	max-height: 90%;
 	width: 100%;
 	overflow: scroll;
 }
