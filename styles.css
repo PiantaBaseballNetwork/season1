@@ -12,6 +12,10 @@ header{
 	overflow-x: scroll;
 }
 
+.imagefit{
+	width: 90%;
+}
+
 .table-container {
 	color: black;
 	position: relative;
