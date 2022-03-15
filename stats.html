@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="Assets/tab_icon.png">
+	<title>Stats</title>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+	<a href="index.html"><img src="Assets/mb_logo.png" alt="baseball logo" class="sitelogo"></a>
+	
+	<a href="index.html">Home</a>
+	<a href="stats.html">Stats</a>
+	<a href="standings.html">Standings</a>
+	<a href="archive.html">Archive</a>
+</div>
+
+<!-- Filter Options -->
+<div class="teamfilterbar">
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/SunshineStrikers.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="sunshinestrikerscheck" onchange="filterChange()" checked>
+	</div>
+	
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/BusStopGang.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="busstopgangcheck" onchange="filterChange()" checked>
+	</div>
+	
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/BrickSquad.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="bricksquadcheck" onchange="filterChange()" checked>
+	</div>
+	
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/BattleToads.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="battletoadscheck" onchange="filterChange()" checked>
+	</div>
+	
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/LazyLurkers.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="lazylurkerscheck" onchange="filterChange()" checked>
+	</div>
+	
+	<div class="teamiconcontainer">
+		<img src="Assets/TeamIcons/SacramentoKings.png" alt="baseball logo" class="teamicon">
+		<input type="checkbox" id="sacramentokingscheck" onchange="filterChange()" checked>
+	</div>
+</div>
+
+<div class="radiofilterbar">
+	<div class="radiofilter">
+		<input type="radio" name="teamorchar" value="team" id="radioteam" onchange="filterChange()" checked>
+		<label for="radioteam">Teams</label>
+		
+		<input type="radio" name="teamorchar" value="char" id="radiochar" onchange="filterChange()">
+		<label for="radiochar">Characters</label>
+	</div>
+	
+	<div class="radiofilter">
+		<input type="radio" name="stattype" value="batting" id="radiobatting" onchange="filterChange()" checked>
+		<label for="radiobatting">Batting</label>
+		
+		<input type="radio" name="stattype" value="pitching" id="radiopitching" onchange="filterChange()">
+		<label for="radiopitching">Pitching</label>
+	</div>
+</div>
+
+<!-- Table -->
+<div class="table-container">
+<table class="stattable">
+	<thead id="tableheader">
+		
+	</thead>
+	
+	<tbody id="tablebody">
+	
+	</tbody>
+</table>
+</div>
+
+
+</body>
+
+<script src="stats.js"></script>
+</html>
