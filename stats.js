@@ -9,7 +9,8 @@ fetch("LeagueData.json")
 	.then(response => response.json())
 	.then(data => {
 		console.log(data)
-		leagueData = data.Seasons[0]
+		leagueData = data
+		tableContents = data.Seasons[0].Teams
 	})
 
 var t_LazyLurkers = ["Paratroopa(G)", "Magikoopa(B)", "Toad(G)", "Petey", "Dry Bones(G)", "Luigi", "Shy Guy(Bk)", "Goomba", "Shy Guy(Y)"];
