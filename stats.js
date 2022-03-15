@@ -2,6 +2,7 @@ console.log("js loaded");
 
 /* set up variables */
 var leagueData;
+var tableContents;
 
 /* load json file */
 fetch("LeagueData.json")
@@ -9,9 +10,8 @@ fetch("LeagueData.json")
 	.then(data => {
 		console.log(data)
 		leagueData = data
+		tableContents = data.Seasons[0].Teams;
 	})
-	
-var tableContents = leagueData.Seasons[0].Teams;
 
 var t_LazyLurkers = ["Paratroopa(G)", "Magikoopa(B)", "Toad(G)", "Petey", "Dry Bones(G)", "Luigi", "Shy Guy(Bk)", "Goomba", "Shy Guy(Y)"];
 
