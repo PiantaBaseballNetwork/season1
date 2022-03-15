@@ -2,7 +2,7 @@ console.log("js loaded");
 
 /* set up variables */
 var leagueData;
-var tableContents [];
+var tableContents = [];
 
 /* load json file */
 fetch("LeagueData.json")
