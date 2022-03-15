@@ -79,7 +79,7 @@ input[type='checkbox']{
 }
 
 .radiofilterbar{
-	background: #666;
+	background: #888;
 	padding: 2px;
 	margin: 0 0;
 	display: flex;
@@ -130,16 +130,16 @@ input[type='checkbox']{
 	overflow: scroll;
 }
 
-table {
+.table-container table {
 	border-collapse: collapse; 
 	caption-side: top;
 }
 
-caption {
+.table-container caption {
 	text-align: left; position: fixed; left: 0; top:0
 }
 
-td, th {
+.table-container td, th {
 	color: black;
 	border:  1px solid;
 	padding: 10px;
@@ -149,11 +149,11 @@ td, th {
 	text-align: left;
 }
 
-th {
+.table-container th {
 	box-shadow: 0 0 0 1px black;
 }
 
-thead th{
+.table-container thead th{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -161,28 +161,36 @@ thead th{
 	background: hsl(20, 50%, 70%);
 }
 
-thead th:first-child{
+.table-container thead th:first-child{
 	left: 0;
 	z-index: 3;
 }
 
-tfoot th {
+.table-container tfoot th {
 	position: sticky;
 	bottom: 0;
 	z-index: 2;
 	background: hsl(20, 50%, 70%);
 }
 
-tbody {
+.table-container tbody {
 	overflow: scroll;
 }
 
 /* MAKE LEFT COLUMN FIXED */
-tr > :first-child {
+.table-container tr > :first-child {
 	position: -webkit-sticky;
 	position: sticky; 
 	background: hsl(180, 50%, 70%);
 	left: 0; 
+}
+
+.standingstablecontainer td:nth-child(1){
+	text-align: left;
+}
+
+.standingstablecontainer td{
+	text-align: center;
 }
 
 /* Tables */
