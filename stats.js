@@ -11,6 +11,7 @@ fetch("LeagueData.json")
 		console.log(data)
 		leagueData = data
 		tableContents = data.Seasons[0].Teams
+		buildTable(tableContents, false);
 	})
 	
 /*tableContents = leagueData.Seasons[0].Teams*/
@@ -37,8 +38,7 @@ console.log("JSON loaded:");
 console.log(leagueData);
 
 /* build table for the first time */
-buildTable(tableContents, false);
-filterChange();
+
 
 /* functions */
 function setClickEvents()
