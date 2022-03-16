@@ -20,9 +20,9 @@ console.log(leagueData);
 
 /* functions */
 
-function setStandings(data)
+function setStandings(_data)
 {
-	data = data.sort((a,b) => a[1] > b[1] ? 1 : -1)
+	var data = _data.sort((a,b) => a["GamesWon"] > b["GamesWon"] ? 1 : -1)
 	var standingsTableHeader = document.getElementById('standingstableheader')
 	standingsTableHeader.innerHTML = '';
 	
