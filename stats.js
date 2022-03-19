@@ -18,9 +18,9 @@ fetch("LeagueData.json")
 
 var t_LazyLurkers = ["Paratroopa(G)", "Magikoopa(B)", "Toad(G)", "Petey", "Dry Bones(G)", "Luigi", "Shy Guy(Bk)", "Goomba", "Shy Guy(Y)"];
 
-var t_BusStopGang = ["Shy Guy(B)", "Koopa(R)", "Boo", "Wario", "Noki(R)", "Pianta(R)", "Magikoopa(R)", "Bro(H)", "Monty"];
+var t_BusStopGang = ["Koopa(R)", "Boo", "Wario", "Noki(R)", "Pianta(R)", "Magikoopa(R)", "Bro(H)", "Monty", "Baby Luigi"];
 
-var t_BattleToads = ["Toadette", "Toad(P)", "Toadsworth", "Toad(R)", "Peach", "Toad(B)", "Paragoomba", "Toad(Y)", "Baby Luigi"];
+var t_BattleToads = ["Toadette", "Toad(P)", "Toadsworth", "Toad(R)", "Peach", "Toad(B)", "Paragoomba", "Toad(Y)", "Shy Guy(B)"];
 
 var t_BrickSquad = ["Mario", "Yoshi", "Birdo", "Shy Guy(G)", "Baby Mario", "Daisy", "Paratroopa(R)", "Dry Bones(B)", "Waluigi", ];
 
