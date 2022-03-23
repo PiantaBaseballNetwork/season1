@@ -18,7 +18,7 @@ fetch("LeagueData.json")
 
 var t_LazyLurkers = ["Paratroopa(G)", "Magikoopa(B)", "Toad(G)", "Petey", "Dry Bones(G)", "Luigi", "Shy Guy(Bk)", "Goomba", "Shy Guy(Y)"];
 
-var t_BusStopGang = ["Koopa(R)", "Boo", "Wario", "Noki(R)", "Pianta(R)", "Magikoopa(R)", "Bro(H)", "Monty", "Baby Luigi"];
+var t_BusStopGang = ["Magikoopa(G)", "Pianta(Y)", "Boo", "Wario", "Pianta(R)", "Magikoopa(R)", "Bro(H)", "Monty", "Baby Luigi"];
 
 var t_BattleToads = ["Toadette", "Toad(P)", "Toadsworth", "Toad(R)", "Peach", "Toad(B)", "Paragoomba", "Toad(Y)", "Shy Guy(B)"];
 
@@ -26,7 +26,7 @@ var t_BrickSquad = ["Mario", "Yoshi", "Birdo", "Shy Guy(G)", "Baby Mario", "Dais
 
 var t_SunshineStrikers = ["Diddy", "DK", "Bro(B)", "Noki(B)", "Noki(G)", "Pianta(B)", "Shy Guy(R)", "Magikoopa(Y)", "Bowser Jr"];
 
-var t_SacramentoKings = ["Bowser", "Bro(F)", "Magikoopa(G)", "King Boo", "Pianta(Y)", "Dry Bones(R)", "Dixie", "Dry Bones(Gy)", "Koopa(G)"];
+var t_SacramentoKings = ["Bowser", "Bro(F)", "King Boo", "Dry Bones(R)", "Dixie", "Dry Bones(Gy)", "Koopa(G)", "Koopa(R)", "Noki(R)"];
 
 var lastClick = -99;
 var lastColumn = -99;
