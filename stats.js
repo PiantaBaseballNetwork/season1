@@ -165,6 +165,7 @@ function buildTable(data, justRows)
 				<th data-column="OBP" data-order="none">OBP &#9642</th>
 				<th data-column="SLG" data-order="none">SLG &#9642</th>
 				<th data-column="OPS" data-order="none">OPS &#9642</th>
+				<th data-column="RBI" data-order="none">RBI &#9642</th>
 				
 				<th data-column="Hits" data-order="none">Hits &#9642</th>
 				<th data-column="Singles" data-order="none">Singles &#9642</th>
@@ -208,6 +209,7 @@ function buildTable(data, justRows)
 				<th data-column="OBP" data-order="none">OBP &#9642</th>
 				<th data-column="SLG" data-order="none">SLG &#9642</th>
 				<th data-column="OPS" data-order="none">OPS &#9642</th>
+				<th data-column="RBI" data-order="none">RBI &#9642</th>
 				
 				<th data-column="Hits" data-order="none">Hits &#9642</th>
 				<th data-column="Singles" data-order="none">Singles &#9642</th>
@@ -259,6 +261,7 @@ function buildTable(data, justRows)
 				<td>${data[i].OBP}</td>
 				<td>${data[i].SLG}</td>
 				<td>${data[i].OPS}</td>
+				<td>${data[i].RBI}</td>
 				
 				<td>${data[i].Hits}</td>
 				<td>${data[i].Singles}</td>
@@ -308,6 +311,7 @@ function buildTable(data, justRows)
 				<td>${data[i].OBP}</td>
 				<td>${data[i].SLG}</td>
 				<td>${data[i].OPS}</td>
+				<td>${data[i].RBI}</td>
 				
 				<td>${data[i].Hits}</td>
 				<td>${data[i].Singles}</td>
